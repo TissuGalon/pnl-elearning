@@ -26,171 +26,228 @@
     <!-- * loader -->
 
     <!-- App Header -->
-    <div class="appHeader bg-primary scrolled">
+    <div class="appHeader bg-primary text-light">
         <div class="left">
-            <a href="#" class="headerButton" data-toggle="modal" data-target="#sidebarPanel">
-                <ion-icon name="menu-outline"></ion-icon>
+            <a href="javascript:;" class="headerButton goBack">
+                <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
         </div>
-        <div class="pageTitle">
-            Home
-        </div>
+        <div class="pageTitle">Learning Room</div>
         <div class="right">
-            <a href="javascript:;" class="headerButton toggle-searchbox">
-                <ion-icon name="search-outline"></ion-icon>
-            </a>
+            <!-- <a href="#" class="headerButton">
+                <ion-icon name="star-outline"></ion-icon>
+            </a> -->
         </div>
     </div>
     <!-- * App Header -->
 
-    <!-- Search Component -->
-    <div id="search" class="appHeader">
-        <form class="search-form">
-            <div class="form-group searchbox">
-                <input type="text" class="form-control" placeholder="Search...">
-                <i class="input-icon">
-                    <ion-icon name="search-outline"></ion-icon>
-                </i>
-                <a href="javascript:;" class="ml-1 close toggle-searchbox">
-                    <ion-icon name="close-circle"></ion-icon>
-                </a>
-            </div>
-        </form>
-    </div>
-    <!-- * Search Component -->
-
     <!-- App Capsule -->
     <div id="appCapsule">
 
-        <div class="header-large-title d-flex">
-            <img src="assets\img\sample\photo\logo_pnl.png" width="20%" height="20%" class="m-1" alt="">
-            <div class="ml-2">
-                <h1 class="title">E-Learning</h1>
-                <h4 class="subtitle">Politeknik Negeri Lhokseumawe</h4>
+        <!-- carousel -->
+        <div class="carousel-full owl-carousel owl-theme">
+            <div class="item">
+                <img src="assets/img/sample/photo/d1.jpg" alt="alt" class="imaged w-100 square">
             </div>
         </div>
+        <!-- * carousel -->
+        <div class="section full">
+            <div class="wide-block pt-2 pb-2 product-detail-header">
+               <!--  <div class="rate-block mb-1">
+                    <ion-icon name="star" class="active"></ion-icon>
+                    <ion-icon name="star" class="active"></ion-icon>
+                    <ion-icon name="star" class="active"></ion-icon>
+                    <ion-icon name="star" class="active"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                </div> -->
+                <p></p>
+                <h1 class="title">English For Academic Listening</h1>
+                <div class="text">Teknik Informatika 1B</div>
+                <div class="detail-footer">
+
+                 <!--    <div class="price">
+                        <div class="old-price">$ 74.99</div>
+                        <div class="current-price">$ 49.99</div>
+                    </div>
+
+                    <div class="amount">
+                        <div class="stepper stepper-secondary">
+                            <a href="#" class="stepper-button stepper-down">-</a>
+                            <input type="text" class="form-control" value="1" disabled/>
+                            <a href="#" class="stepper-button stepper-up">+</a>
+                        </div>
+                    </div> -->
+
+                </div>
+                <a class="btn btn-primary btn-lg btn-block mb-2 rounded" href="#tugas">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    Lihat Tugas
+                </a>
+            </div>
+        </div>
+
+        
+
+        <div class="section full mt-2" id="tugas">
+            <div class="section-title">Bio Kelas</div>
+            <div class="wide-block pt-2 pb-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla, nibh sed viverra dictum,
+                ligula mauris lobortis tortor, eu efficitur leo nulla at metus. Aliquam malesuada enim augue, semper
+                sagittis enim tempus sed.
+            </div>
+
+        </div>
+
+        <!-- Daftar Tugas -->
+        <div class="section full mt-2 mb-3" >
+            <div class="section-title mb-1">Daftar Tugas</div>
+
+            <div class="carousel-multiple owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card product-card">
+                        <div class="card-body">
+                            <img src="assets/img/sample/photo/product1.jpg" class="image" alt="product image">
+                            <h2 class="title">Tugas Week 1</h2>
+                            <p class="text">Sabtu 22 Oktober 2022</p>
+                            <div class="price text-success">Terkumpul</div>
+                            <a href="#" class="btn btn-sm btn-primary btn-block rounded">DETAIL TUGAS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card product-card">
+                        <div class="card-body">
+                            <img src="assets/img/sample/photo/product2.jpg" class="image" alt="product image">
+                            <h2 class="title">Tugas Week 2</h2>
+                            <p class="text">Sabtu 22 Oktober 2022</p>
+                            <div class="price text-danger">Tidak Kumpul</div>
+                            <a href="#" class="btn btn-sm btn-primary btn-block disabled rounded">DETAIL TUGAS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card product-card">
+                        <div class="card-body">
+                            <img src="assets/img/sample/photo/product3.jpg" class="image" alt="product image">
+                            <h2 class="title">Tugas Week 3</h2>
+                            <p class="text">Sabtu 22 Oktober 2022</p>
+                            <div class="price">Belum Mengumpul</div>
+                            <a href="#" class="btn btn-sm btn-primary btn-block rounded">DETAIL TUGAS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card product-card">
+                        <div class="card-body">
+                            <img src="assets/img/sample/photo/product4.jpg" class="image" alt="product image">
+                            <h2 class="title">Tugas Week 4</h2>
+                            <p class="text">Sabtu 22 Oktober 2022</p>
+                            <div class="price text-warning">Terkumpul Telat</div>
+                            <a href="#" class="btn btn-sm btn-primary btn-block rounded">DETAIL TUGAS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Daftar Tugas -->
 
         <hr>
 
-        <div class="section full mt-3 mb-3">
-            <div class="carousel-multiple owl-carousel owl-theme">
-
-                <div class="item">
-                    <div class="card">
-                        <img src="assets/img/sample/photo/d1.jpg" class="card-img-top" alt="image">
-                        <div class="card-body pt-2">
-                            <h4 class="mb-0">English for Academic</h4>
-                            <hr>
-                            <!--<small>Nama Dosen :<br>Mahlil, S. Pd., MA</small><br>
-                            <small>Type : teori</small><br>
-                            <small>Kelas : 1B</small><br>
-                            <small style="color: black; font-style:bold;">Prodi : D-IV Teknik Informatika</small>-->
+        <!-- Informasi -->
+        <div class="section full mt-2">
+            <div class="section-title">Informasi (2)</div>
+            <div class="wide-block pt-2 pb-2">
+                <!-- comment block -->
+                <div class="comment-block">
+                    <!--item -->
+                    <div class="item">
+                        <div class="avatar">
+                            <img src="assets/img/sample/avatar/avatar1.jpg" alt="avatar" class="imaged w32 rounded">
                         </div>
-                        <a href="matakuliah.html" class="btn btn-sm btn-success m-1 rounded">Masuk</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="card">
-                        <img src="assets/img/sample/photo/d2.jpg" class="card-img-top" alt="image">
-                        <div class="card-body pt-2">
-                            <h4 class="mb-0">Konsep Basis Data</h4>
-                            <hr>
+                        <div class="in">
+                            <div class="comment-header">
+                                <h4 class="title">Diego Morata</h4>
+                                <span class="time">just now</span>
+                            </div>
+                            <div class="rate-block mb-1 mt-05">
+                                <ion-icon name="star" class="active"></ion-icon>
+                                <ion-icon name="star" class="active"></ion-icon>
+                                <ion-icon name="star" class="active"></ion-icon>
+                                <ion-icon name="star" class="active"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                            </div>
+                            <div class="text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </div>
+                            <div class="comment-footer">
+                                <a href="javascript:;" class="comment-button">
+                                    <ion-icon name="happy-outline"></ion-icon>
+                                    Helpful (523)
+                                </a>
+                                <a href="javascript:;" class="comment-button">
+                                    <ion-icon name="flag-outline"></ion-icon>
+                                    Report
+                                </a>
+                            </div>
                         </div>
-                        <a href="matakuliah.html" class="btn btn-sm btn-success m-1 rounded">Masuk</a>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="card">
-                        <img src="assets/img/sample/photo/d3.jpg" class="card-img-top" alt="image">
-                        <div class="card-body pt-2">
-                            <h4 class="mb-0">Konsep Pemrograman</h4>
-                            <hr>
+                    <!-- * item -->
+                    <!--item -->
+                    <div class="item">
+                        <div class="avatar">
+                            <img src="assets/img/sample/avatar/avatar4.jpg" alt="avatar" class="imaged w32 rounded">
                         </div>
-                        <a href="matakuliah.html" class="btn btn-sm btn-success m-1 rounded">Masuk</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="card">
-                        <img src="assets/img/sample/photo/d4.jpg" class="card-img-top" alt="image">
-                        <div class="card-body pt-2">
-                            <h4 class="mb-0">Konsep Teknologi Informasi</h4>
-                            <hr>
+                        <div class="in">
+                            <div class="comment-header">
+                                <h4 class="title">Carmelita Marsham</h4>
+                                <span class="time">Sep 23, 2020</span>
+                            </div>
+                            <div class="rate-block mb-1 mt-05">
+                                <ion-icon name="star" class="active"></ion-icon>
+                                <ion-icon name="star" class="active"></ion-icon>
+                                <ion-icon name="star" class="active"></ion-icon>
+                                <ion-icon name="star" class="active"></ion-icon>
+                                <ion-icon name="star" class="active"></ion-icon>
+                            </div>
+                            <div class="text">
+                                Vivamus lobortis, orci et commodo pulvinar, eros nibh volutpat ipsum, in rhoncus risus
+                                dolor
+                                sed ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec nisi
+                                odio,
+                                dapibus in felis vel, lobortis iaculis quam.
+                            </div>
+                            <div class="comment-footer">
+                                <a href="javascript:;" class="comment-button">
+                                    <ion-icon name="happy-outline"></ion-icon>
+                                    Helpful (43)
+                                </a>
+                                <a href="javascript:;" class="comment-button">
+                                    <ion-icon name="flag-outline"></ion-icon>
+                                    Report
+                                </a>
+                            </div>
                         </div>
-                        <a href="matakuliah.html" class="btn btn-sm btn-success m-1 rounded">Masuk</a>
                     </div>
+                    <!-- * item -->
                 </div>
-                <div class="item">
-                    <div class="card">
-                        <img src="assets/img/sample/photo/d6.jpg" class="card-img-top" alt="image">
-                        <div class="card-body pt-2">
-                            <h4 class="mb-0">Logika dan Algoritma</h4>
-                            <hr>
-                        </div>
-                        <a href="matakuliah.html" class="btn btn-sm btn-success m-1 rounded">Masuk</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="card">
-                        <img src="assets/img/sample/photo/d5.jpg" class="card-img-top" alt="image">
-                        <div class="card-body pt-2">
-                            <h4 class="mb-0">Praktikum Keterampilan Komputer</h4>
-                            <hr>
-                        </div>
-                        <a href="matakuliah.html" class="btn btn-sm btn-success m-1 rounded">Masuk</a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="section mt-3 mb-3">
-            <div class="card">
-                <div class="card-body d-flex justify-content-between align-items-end">
-                    <div>
-                        <h6 class="card-subtitle">Discover</h6>
-                        <h5 class="card-title mb-0 d-flex align-items-center justify-content-between">
-                            Dark Mode
-                        </h5>
-                    </div>
-                    <div class="custom-control custom-switch">
-                        <input type="checkbox" class="custom-control-input dark-mode-switch" id="darkmodeswitch">
-                        <label class="custom-control-label" for="darkmodeswitch"></label>
-                    </div>
-
-                </div>
+                <!-- * comment block -->
+                <div class="divider mt-3 mb-2"></div>
+                <a href="#" class="btn btn-block btn-primary rounded">Tambahkan Informasi</a>
             </div>
         </div>
-
-        <div class="section mt-3 mb-3">
-            <div class="card">
-                <img src="assets/img/sample/photo/wide4.jpg" class="card-img-top" alt="image">
-                <div class="card-body">
-                    <h6 class="card-subtitle">Discover</h6>
-                    <h5 class="card-title">News</h5>
-                    <p class="card-text">
-                        Reusable components designed for the mobile interface and ready to use.
-                    </p>
-                    <a href="#" class="btn btn-primary">
-                        <ion-icon name="cube-outline"></ion-icon>
-                        Preview
-                    </a>
-                </div>
-            </div>
-        </div>
+         <!-- * Review -->
 
 
 
         
 
+
     </div>
     <!-- * App Capsule -->
 
-
     <!-- App Bottom Menu -->
     <div class="appBottomMenu">
-        <a href="index.html" class="item active">
+        <a href="index.html" class="item">
             <div class="col">
                 <ion-icon name="home-outline"></ion-icon>
             </div>
@@ -231,10 +288,10 @@
                             <img src="assets/img/sample/avatar/avatar1.jpg" alt="image" class="imaged rounded">
                         </div>
                         <div class="in">
-                            <strong>Muhammad Kholis</strong>
+                            <strong>Julian Gruber</strong>
                             <div class="text-muted">
                                 <ion-icon name="location"></ion-icon>
-                                TIK - TI/1B
+                                California
                             </div>
                         </div>
                         <a href="javascript:;" class="close-sidebar-button" data-dismiss="modal">
@@ -242,40 +299,19 @@
                         </a>
                     </div>
                     <!-- * profile box -->
-                    
+
                     <ul class="listview flush transparent no-line image-listview mt-2">
-                        <li>
-                            <a href="page-profile.html" class="item">
-                                <div class="icon-box bg-primary">
-                                    <ion-icon name="person-circle-outline"></ion-icon>
-                                </div>
-                                <div class="in">
-                                    Profile
-                                </div>
-                            </a>
-                        </li>
                         <li>
                             <a href="index.html" class="item">
                                 <div class="icon-box bg-primary">
                                     <ion-icon name="home-outline"></ion-icon>
                                 </div>
                                 <div class="in">
-                                    Home
+                                    Discover
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="index.html" class="item">
-                                <div class="icon-box bg-primary">
-                                    <ion-icon name="notifications-outline"></ion-icon>
-                                </div>
-                                <div class="in">
-                                    Tugas
-                                </div>
-                            </a>
-                        </li>
-
-                        <!-- <li>
                             <a href="app-components.html" class="item">
                                 <div class="icon-box bg-primary">
                                     <ion-icon name="cube-outline"></ion-icon>
@@ -284,19 +320,18 @@
                                     Components
                                 </div>
                             </a>
-                        </li> -->
-                        
+                        </li>
                         <li>
                             <a href="app-pages.html" class="item">
                                 <div class="icon-box bg-primary">
-                                    <ion-icon name="clipboard-outline"></ion-icon>
+                                    <ion-icon name="layers-outline"></ion-icon>
                                 </div>
                                 <div class="in">
-                                    <div>Ujian</div>
+                                    <div>Pages</div>
                                 </div>
                             </a>
                         </li>
-                        <!-- <li>
+                        <li>
                             <a href="page-chat.html" class="item">
                                 <div class="icon-box bg-primary">
                                     <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
@@ -306,7 +341,7 @@
                                     <span class="badge badge-danger">5</span>
                                 </div>
                             </a>
-                        </li> -->
+                        </li>
                         <li>
                             <div class="item">
                                 <div class="icon-box bg-primary">
@@ -323,7 +358,7 @@
                             </div>
                         </li>
                     </ul>
-<!--
+
                     <div class="listview-title mt-2 mb-1">
                         <span>Friends</span>
                     </div>
@@ -370,8 +405,6 @@
                             </a>
                         </li>
                     </ul>
--->
-
 
                 </div>
 
@@ -386,7 +419,7 @@
                     <a href="javascript:;" class="button">
                         <ion-icon name="settings-outline"></ion-icon>
                     </a>
-                    <a href="page-login.html" class="button">
+                    <a href="javascript:;" class="button">
                         <ion-icon name="log-out-outline"></ion-icon>
                     </a>
                 </div>
@@ -395,32 +428,6 @@
         </div>
     </div>
     <!-- * App Sidebar -->
-
-    <!-- welcome notification  -->
-    <div id="notification-welcome" class="notification-box">
-        <div class="notification-dialog android-style">
-            <div class="notification-header">
-                <div class="in">
-                    <img src="assets/img/icon/72x72.png" alt="image" class="imaged w24">
-                    <strong>E-Learning</strong>
-                    <span>Baru Saja</span>
-                </div>
-                <a href="#" class="close-button">
-                    <ion-icon name="close"></ion-icon>
-                </a>
-            </div>
-            <div class="notification-content">
-                <div class="in">
-                    <h3 class="subtitle">Welcome to E-Learning</h3>
-                    <div class="text">
-                        E-Learning adalah aplikasi resmi Politeknik Negeri Lhokseumawe yang digunakan sebagai
-                        media pembelajaran antara Mahasiswa dan Dosen.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- * welcome notification -->
 
     <!-- ///////////// Js Files ////////////////////  -->
     <!-- Jquery -->
@@ -437,12 +444,6 @@
     <!-- Base Js File -->
     <script src="assets/js/base.js"></script>
 
-
-    <script>
-        setTimeout(() => {
-            notification('notification-welcome', 5000);
-        }, 2000);
-    </script>
 
 </body>
 
